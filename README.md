@@ -12,6 +12,8 @@ A new tool that blends your everyday work apps into one. It's the all-in-one wor
 **Notion's Wikipedia Page.
 Notion's About Page**
 
+Required Library 
+ pip install notion 
 **Modules Used:**
 **Notion Module:
 Notion module is Unofficial Python API client for Notion.so. It also works for both free and as well as paid accounts.
@@ -21,3 +23,4 @@ Automatic conversion between internal Notion formats and appropriate Python obje
 Callback system for responding to changes in Notion(e.g. for triggering actions, updating another API, etc)
 Local cache of data in a unified data store (Note: disk cache now disabled by default; to enable, add enable_caching=True when initializing NotionClient)
 If you wish to know more about it, you can refer to Notion Module Documentation.
+
